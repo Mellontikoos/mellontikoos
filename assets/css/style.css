@@ -10349,7 +10349,7 @@ ol {
 }
 
 .processing-contact-us-bg {
-  background-color: #002fa6;
+  /* background-color: #002fa6; */
   background-image: url(../images/bg/mitech-processing-contact-bg.webp);
   background-repeat: no-repeat;
   background-position: top right;
