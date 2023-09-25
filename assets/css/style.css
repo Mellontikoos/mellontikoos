@@ -13704,13 +13704,13 @@ blockquote {
 =       Modern It Company Css       =
 ===================================*/
 .modern-it-company-top-area {
-  background-image: url("../images/bg/bg-gird-pattern-repeat-alt.webp");
+  background-image: url("../images/bg/home-infotechno-contact-bg.webp"); 
   background-repeat: repeat;
 }
 
 .modern-it-company-hero {
   position: relative;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .modern-it-company-hero {
