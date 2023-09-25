@@ -13705,11 +13705,13 @@ blockquote {
 ===================================*/
 .modern-it-company-top-area {
   background-image: url("../images/bg/home-infotechno-contact-bg.webp"); 
+  /* background-image: url("../images/bg/soft-s2-bg.webp");  */
   background-repeat: repeat;
 }
 
 .modern-it-company-hero {
   position: relative;
+  max-width: 100%;
   /* margin-bottom: 200px; */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
