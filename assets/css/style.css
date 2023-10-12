@@ -2414,10 +2414,10 @@ input[type=checkbox] {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: flex-end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 .header.default-menu-style .header-right-box {
   -webkit-flex-shrink: 0;
@@ -3031,7 +3031,7 @@ input[type=checkbox] {
   bottom: 0;
   position: absolute;
   left: 0;
-  background-color: #086AD8;
+  background-color: #d2a98e;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -3081,13 +3081,13 @@ input[type=checkbox] {
   opacity: 1;
 }
 .navigation-menu > ul > li:hover > a:after, .navigation-menu > ul > li.active > a:after {
-  color: #086AD8;
+  color: #d2a98e;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .navigation-menu > ul > li:hover > a span, .navigation-menu > ul > li.active > a span {
-  color: #086AD8;
+  color: #d2a98e;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -7236,7 +7236,7 @@ ol {
   z-index: 1;
 }
 .gradation-sub-heading .heading::before {
-  background-color: #086ad8;
+  background-color: #d2a98e;
   content: "";
   position: absolute;
   top: 47px;
@@ -7300,7 +7300,7 @@ ol {
 }
 .ht-gradation.style-01 .item:hover .circle {
   color: #ffffff;
-  background: #086AD8;
+  background: #d2a98e;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
   .ht-gradation.style-01 {
@@ -10352,7 +10352,8 @@ ol {
   /* background-color: #002fa6; */
   background-image: url(../images/bg/mitech-processing-contact-bg.webp);
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: top center;
+  background-size: cover;
 }
 
 .contact-title .sub-title {
@@ -12170,12 +12171,24 @@ blockquote {
 /*=================================
 =       38. Service Home Css        =
 ==================================*/
+
 .service-hero-bg {
+  position: relative;
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url("../images/hero/home-services-hero-bg.webp");
+  background-image:url("../images/hero/home-bg-2.jpg");
   background-size: cover;
   background-position: 50% 50%;
+}
+
+.service-hero-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
 .service-hero-space {
