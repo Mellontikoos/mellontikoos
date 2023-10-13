@@ -11019,7 +11019,7 @@ ol {
   position: absolute;
   top: 36px;
   left: 0;
-  background: url(../images/icons/metro-quote.webp) no-repeat;
+  /* background: url(../images/icons/metro-quote.webp) no-repeat; */
   width: 150px;
   height: 132px;
 }
