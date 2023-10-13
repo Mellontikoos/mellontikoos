@@ -5696,7 +5696,7 @@ ul.footer-widget__horizontal-list li {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  border: 2px solid #086ad8;
+  border: 2px solid #000;
   opacity: 0;
   -webkit-transform-origin: 50% 50%;
       -ms-transform-origin: 50% 50%;
@@ -9619,7 +9619,7 @@ ol {
           transform: translate(-50%, 0);
   width: 30px;
   height: 30px;
-  color: #086ad8;
+  color: #000;
 }
 @media only screen and (max-width: 767px) {
   .ht-timeline.style-01 .dots {
@@ -9666,7 +9666,7 @@ ol {
   }
 }
 .ht-timeline.style-01 .timeline-col .inner .year {
-  color: #086AD8;
+  color: #d2a98e;
   font-size: 72px;
   font-weight: 400;
   line-height: 1;
