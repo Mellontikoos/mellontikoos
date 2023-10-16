@@ -12606,8 +12606,8 @@ blockquote {
 }
 
 .inner-img-one {
-  position: absolute;
-  z-index: -1;
+  position: relative;
+  z-index: 1;
   bottom: 0;
 }
 @media only screen and (max-width: 767px) {
